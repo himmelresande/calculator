@@ -168,7 +168,7 @@ class Calculator(QWidget):
             if self.num_2 !=0:
                 self.input.setText(answer(self.num_1 / self.num_2))
             else:
-                self.input.setText("na 0 delit' nelzya")
+                self.input.setText("na 0 delit' nel'zya")
         self.already_used = 1
         self.num_1 = float(self.input.text())
 
